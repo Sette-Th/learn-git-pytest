@@ -6,21 +6,13 @@ Number = Union[int, float]
 
 
 def add(a: Number, b: Number) -> Number:
-    """
-    Return the sum of a and b.
-
-    Args:
-        a: First number
-        b: Second number
-
-    Returns:
-        The sum of a and b
-    """
+    return a + b  
     # TODO: Implement this function
     pass
 
 
 def subtract(a: Number, b: Number) -> Number:
+    return a - b
     """
     Return the result of subtracting b from a.
 
