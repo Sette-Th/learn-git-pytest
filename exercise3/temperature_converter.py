@@ -6,6 +6,7 @@ Temperature = Union[int, float]
 
 
 def celsius_to_fahrenheit(celsius: Temperature) -> float:
+
     """
     Convert temperature from Celsius to Fahrenheit.
 
